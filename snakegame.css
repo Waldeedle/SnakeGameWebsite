@@ -1,0 +1,47 @@
+@import url("http://fonts.googleapis.com/css?family=Press+Start+2P");
+
+h1 {
+    font-family: press Start 2p;
+}
+
+h1, p, a {
+    position: relative;  
+    z-index: 1; 
+    font: 55px "Press Start 2P", cursive;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+
+/*Basic styling, centering of the canvas.*/
+canvas {
+    display: block;
+    position: absolute;
+    border: 1px solid #000;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    }
+
+
+    body {background-color: #39f;}
+@-webkit-keyframes colours {
+      0% {background-color: red;}
+     15% {background-color: yellow;}
+     30% {background-color: blue;}
+     45% {background-color: green;}
+     60% {background-color: purple;}
+     75% {background-color: pink;}
+     90% {background-color: black;}
+    100% {background-color: red;}
+}
+    body {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: colours;
+    -webkit-animation-timing-function: ease;
+}
